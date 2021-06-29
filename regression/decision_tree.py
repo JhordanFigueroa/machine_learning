@@ -2,6 +2,9 @@ import numpy as np
 from numpy.core.defchararray import mod
 import pandas as pd
 import matplotlib.pyplot as plt
+#import sys
+#sys.path.insert(6, '/Users/jhordanfigueroa/Desktop/machine_learning/datasets/Position_Salaries.csv')
+
 
 #READ DATASET
 dataset = pd.read_csv('Position_Salaries.csv')
